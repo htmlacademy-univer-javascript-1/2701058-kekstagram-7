@@ -12,15 +12,10 @@ function isPalindrome(string) {
 
   return reversed === normalized;
 }
+<<<<<<< HEAD
+isStringLengthValid('проверяемая строка', 20);
+isPalindrome('ДовОд');
+=======
 
-console.log('--- Длина строки ---');
-console.log(isStringLengthValid('проверяемая строка', 20));
-console.log(isStringLengthValid('проверяемая строка', 18));
-console.log(isStringLengthValid('проверяемая строка', 10));
 
-console.log('--- Палиндром ---');
-console.log(isPalindrome('топот'));
-console.log(isPalindrome('ДовОд'));
-console.log(isPalindrome('Кекс'));
-console.log(isPalindrome('Лёша на полке клопа нашёл '));
-
+>>>>>>> 57a4af555deae2932b0e3c886ecb90e347dd74ef
